@@ -1,0 +1,21 @@
+{
+  "name": "datadog",
+  "displayName": "Datadog",
+  "version": "0.1.0",
+  "description": "Use Datadog directly in Gemini and Gemini Agent through the Datadog MCP server. Query logs, metrics, traces, dashboards, and more through natural conversation. This plugin is in preview.",
+  "author": {
+    "name": "Datadog",
+    "url": "https://www.datadoghq.com"
+  },
+  "repository": "https://github.com/datadog/gemini-plugin",
+  "homepage": "https://docs.datadoghq.com/mcp_server/",
+  "license": "Apache-2.0",
+  "keywords": [
+    "datadog",
+    "infrastructure",
+    "mcp",
+    "observability",
+    "productivity"
+  ],
+  "mcpServers": "./.mcp.json"
+}
